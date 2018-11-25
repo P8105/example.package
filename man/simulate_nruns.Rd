@@ -4,17 +4,17 @@
 \alias{simulate_nruns}
 \title{Repeat simulations}
 \usage{
-simulate_nruns(n_runs = 100, n, beta0 = 2, beta1 = 3)
+simulate_nruns(n_runs, sim_func, ...)
 }
 \arguments{
-\item{n}{sample size}
+\item{n_runs}{number of runs}
 
-\item{beta0}{intercept}
+\item{sim_func}{the simulation function to repeat}
 
-\item{beta1}{slope}
+\item{...}{additional arguments}
 }
 \value{
-tibble with `n_runs` rows
+
 }
 \description{
 Repeat simulations
