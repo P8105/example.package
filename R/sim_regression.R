@@ -9,6 +9,9 @@
 #' @param beta1 slope
 #'
 #' @return tbl_df with one row, containing sample size and coef estimates
+#'
+#' @importFrom tibble tibble
+#'
 #' @export
 #'
 #' @examples

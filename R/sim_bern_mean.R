@@ -1,6 +1,6 @@
 #' Simuate Bernoulli Data
 #'
-#' @param n_samp sample size
+#' @param n sample size
 #' @param prob probability of success
 #'
 #' @return tbl_df with sample size and sample average
@@ -9,7 +9,6 @@
 #'
 #' @export
 #'
-#' @examples
 sim_bern_mean = function(n, prob) {
 
   sim_data = tibble(

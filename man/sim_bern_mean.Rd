@@ -4,10 +4,10 @@
 \alias{sim_bern_mean}
 \title{Simuate Bernoulli Data}
 \usage{
-sim_bern_mean(n_samp, prob)
+sim_bern_mean(n, prob)
 }
 \arguments{
-\item{n_samp}{sample size}
+\item{n}{sample size}
 
 \item{prob}{probability of success}
 }

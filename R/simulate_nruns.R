@@ -12,7 +12,6 @@
 #'
 #' @export
 #'
-#' @examples
 simulate_nruns = function(n_runs, sim_func, ...) {
 
   rerun(n_runs, sim_func(...)) %>%
