@@ -13,3 +13,6 @@ Imports: broom,
     magrittr,
     purrr,
     tibble
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
